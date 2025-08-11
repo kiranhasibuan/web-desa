@@ -28,9 +28,8 @@ php artisan migrate:refresh --seed
 ```
 php artisan shield:setup --fresh
 php artisan shield:install admin
-php artisan shield:generate --panel=admin
+php artisan shield:generate --all
 php artisan shield:super-admin --user=1
-php artisan users:assign-roles --super-admin-id=1
 ```
 
 - Select Bakukele User as super_admin
